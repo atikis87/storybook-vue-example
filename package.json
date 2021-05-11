@@ -12,10 +12,10 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -p 9001 -c .storybook -s public",
     "predeploy": "yarn run build-storybook",
     "deploy-storybook": "gh-pages -d storybook-static",
-    "build-storybook": "build-storybook -o docs-build"
+    "storybook:build": "build-storybook -c .storybook -o .out -s public"
   },
   "dependencies": {
     "core-js": "^3.6.5",
