@@ -7,12 +7,15 @@
   },
   "license": "MIT",
   "private": true,
+  "homepage": "https://atikis87.github.io/storybook-vue-example/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "storybook": "start-storybook -p 9001 -c .storybook -s public",
-    "storybook:build": "build-storybook -c .storybook -o .out -s public"
+    "storybook": "start-storybook -p 6006",
+    "predeploy": "yarn run build-storybook",
+    "deploy-storybook": "gh-pages -d storybook-static",
+    "build-storybook": "build-storybook -o docs-build"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -31,6 +34,7 @@
     "babel-loader": "^8.2.2",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "gh-pages": "^3.1.0",
     "vue-loader": "^15.9.7",
     "vue-template-compiler": "^2.6.11"
   },
