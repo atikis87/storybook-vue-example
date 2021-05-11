@@ -1,0 +1,75 @@
+#pill{
+	margin: 7px 5px;
+	display: inline-block;
+	vertical-align: middle;
+	width: auto;
+	background-image: linear-gradient(180deg,#ddf7fa 0,#85e1ec);
+	border-radius: 3em;
+	padding: 1px;
+	border: 1px solid #FFF;
+}
+#pill:hover{
+	overflow: visible;
+	overflow: hidden;
+	box-shadow: 0 -1px 0 0 #ddf7fa;
+	transform: translate(1px,-1px);
+	transition: transform 330ms;
+	outline: 0 none;
+	color: #16828f;
+  }
+
+#pill:focus, :active{
+	overflow: visible;
+	background: #FFF;
+}
+
+#pill:after{
+	transition-duration: 3s;
+}
+  
+.link{
+	background: #fff;
+	border-radius: 40px;
+	display: block;
+	padding: 4px 18px 7px;
+	transform: translate(0px,0px);
+	transition: transform .3s ease,.3s ease;
+	text-decoration:none;
+}
+
+.link:hover{
+	overflow: hidden;
+	box-shadow: 0px -1px 0px 0px #ddf7fa;
+	transform: translate(1px, -1px);
+
+}
+
+  
+.head{
+	font-size: 2.6rem;
+	font-weight: 700;
+	color: #2ccbdf;
+	margin: 0;
+	transition: all .3s ease;
+}
+
+.head:hover{
+	color: #1daabb;
+}
+  
+  
+.price{
+	font-weight:400;
+	color: #a11a79;
+	display: inline-block;
+	padding-left: 3px;
+	position: relative;
+	bottom: px;
+	right: 0;
+	text-align: right;
+	font-size: 1.4rem;
+	margin: 0 8px;
+	bottom: 5px;
+	vertical-align: bottom;
+}
+  

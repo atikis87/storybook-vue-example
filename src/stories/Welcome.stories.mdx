@@ -1,0 +1,21 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import Holiday from './assets/holiday.jpg';
+
+
+<Meta title="Welcome" />
+
+<style>{`
+.link-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+  }
+  
+`}</style>
+
+# Storybook vue example for Restplatzbörse
+
+<div className="link-list">
+    <img src={Holiday} alt="Holiday" />
+</div>
