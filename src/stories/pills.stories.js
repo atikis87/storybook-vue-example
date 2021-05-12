@@ -16,7 +16,6 @@ Agypten.args = {
   label: 'Ägypten',
   price: 'ab € 342',
   link: 'https://www.restplatzboerse.at/urlaub/aegypten-lid-143/'
-  //ide kell tulajdonság
 };
 
 export const Spanien = Template.bind({});
