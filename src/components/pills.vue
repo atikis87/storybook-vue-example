@@ -27,14 +27,6 @@ export default {
       required: true,
     }
   },
-  cumputed: {
-    styles()
-    {
-        return{
-            'storybook-pill' : true,
-        }
-    }
-  },
   methods:{
     onClick()
     {
